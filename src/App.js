@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+
+import React, { useState } from "react";
 import './App.css';
+import ingredients from './ingredientData.js';
+import Ingredient from './components/Ingredient.js'
 
 function App() {
+  const [people, setPeople] = useState("");
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>🌮 Tacokalkulator 2: Electric Boogaloo 🌮</h1>
       </header>
+      <main>
+        <label>Hvor mange skal spise?</label><br />
+        <input type="text" onChange={(e) => {
+          setPeople(e.target.value);
+        }}/><br/>
+        <div className="ingredients">
+          {ingredients.map((ingredient) => <Ingredient ingredient={ingredient} personer={people}/>)}
+        </div>
+      </main>
     </div>
   );
 }
