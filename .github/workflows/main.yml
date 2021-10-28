@@ -31,5 +31,5 @@ jobs:
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: build/
         server-dir: ./tacocalc
-        protocol: sftp
+        protocol: ftps
         port: 22
