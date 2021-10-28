@@ -1,5 +1,4 @@
 .App {
-  text-align: center;
   color: #333333;
 }
 
@@ -8,4 +7,30 @@
   background-color: #D65108;
   margin-top: 0px;
   padding: 40px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.ingredients, .countForm {
+  width:max-content;
+  margin: auto;
+  font-size:larger;
+}
+
+.countForm {
+  text-align: center;
+}
+
+.countForm input {
+  width:100%;
+}
+
+.ingredient {
+  padding: 5px;
+}
+
+.ingredient input {
+  transform: scale(1.5);
 }

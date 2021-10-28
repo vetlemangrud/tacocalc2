@@ -1,25 +1,32 @@
-//Entallsform, flertallsform, antall per person
+//[Entallsform, flertallsform, antall per person]
 const ingredients = {
     main:[
-        ["pakke kjøttdeig", "pakker kjøttdeig", 1/4],
-        ["boks bønner", "bokser bønner", (150/400)*(2/3)],
-        ["tacolefse", "tacolefser", 2.5],
-        ["pakke tacokrydder", "pakke tacokrydder", 1/4],
-        ["pakke bacon", "pakker bacon", 1/7],
+        //Grønnsakshylla
+        ["rødløk", "rødløk", 1/12],
+        ["paprika", "paprikaer", 1/12],
+        ["isbergsalathode", "isbergsalathoder", 1/15],
         ["tomat", "tomater", 2/5],
         ["agurk", "agurker", 1/12],
-        ["isbergsalathode", "isbergsalathoder", 1/15],
-        ["gram mais", "gram mais", 25],
-        ["paprika", "paprikaer", 1/12],
-        ["boks rømme", "bokser rømme", 1/10],
-        ["rødløk", "rødløk", 1/12],
+        ["pakke druer", "pakker druer", 1/25],
+
+        //Tacohylla
+        ["tacolefse", "tacolefser", 2.5],
+        ["pakke tacokrydder", "pakke tacokrydder", 1/4],
         ["pakke tortillachips", "pakker tortillachips", 1/15],
-        ["glass fetaost", "glass fetaost", 1/12],
         ["glass chunky salsa", "glass chunky salsa", 1/12],
+        ["glass jalapeños", "glass jalapeños", 1/25],
+
+        //Kjøtt
+        ["pakke kjøttdeig", "pakker kjøttdeig", 1/4],
+        ["pakke bacon", "pakker bacon", 1/7],
+
+        //Og så videre
+        ["boks bønner", "bokser bønner", (150/400)*(2/3)],
+        ["gram mais", "gram mais", 25],
+        ["boks rømme", "bokser rømme", 1/10],
+        ["glass fetaost", "glass fetaost", 1/12],
         ["pakke sprøstekt løk", "pakker sprøstekt løk", 1/25],
         ["pakke cashewnøtter", "pakker cashewnøtter", 1/12],
-        ["pakke druer", "pakker druer", 1/25],
-        ["glass jalapeños", "glass jalapeños", 1/25],
         ["boks ananas", "bokser ananas", 1/25],
     ],
     guacamole:[
