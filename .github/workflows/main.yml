@@ -26,9 +26,9 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@4.1.0
       env:
-        FTP_SERVER: ${{ secrets.FTP_SERVER }}
-        FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
-        FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        SERVER: ${{ secrets.FTP_SERVER }}
+        USERNAME: ${{ secrets.FTP_USERNAME }}
+        PASSWORD: ${{ secrets.FTP_PASSWORD }}
         LOCAL_DIR: build
         SERVER_DIR: ./tacocalc
         METHOD: sftp
