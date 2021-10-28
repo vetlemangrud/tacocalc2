@@ -24,11 +24,12 @@ jobs:
       run: ls
       
     - name: FTP-Deploy-Action
-      uses: SamKirkland/FTP-Deploy-Action@4.1.0
+      uses: SamKirkland/FTP-Deploy-Action@2.0.0
       with:
-        server: ${{ secrets.FTP_SERVER }}
-        username: ${{ secrets.FTP_USERNAME }}
-        password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: build/
-        server-dir: ./tacocalc/
+        ftp_server: ${{ secrets.FTP_SERVER }}
+        ftp_username: ${{ secrets.FTP_USERNAME }}
+        ftp_password: ${{ secrets.FTP_PASSWORD }}
+        method: sftp
+        local_dir: build/
+        remote_dir: ./tacocalc/
         port: 22
