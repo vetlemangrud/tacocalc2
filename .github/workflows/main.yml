@@ -29,8 +29,8 @@ jobs:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        local_dir: build
-        server_dir: ./tacocalc
+        local-dir: build
+        server-dir: ./tacocalc
         method: sftp
         port: 22
         args: --delete
