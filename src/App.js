@@ -16,8 +16,13 @@ function App() {
         <input type="text" onChange={(e) => {
           setPeople(e.target.value);
         }}/><br/>
+        <h2>Ingredienser</h2>
         <div className="ingredients">
-          {ingredients.map((ingredient) => <Ingredient ingredient={ingredient} personer={people}/>)}
+          {ingredients.main.map((ingredient) => <Ingredient ingredient={ingredient} personer={people}/>)}
+        </div>
+        <h2>Guacamole</h2>
+        <div className="guacamole">
+          {ingredients.guacamole.map((ingredient) => <Ingredient ingredient={ingredient} personer={people}/>)}
         </div>
       </main>
     </div>
