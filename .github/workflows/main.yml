@@ -30,7 +30,7 @@ jobs:
         FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
         FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
         LOCAL_DIR: build
-        SERVER_DIR: public_html/www/tacocalc
+        SERVER_DIR: ./tacocalc
         METHOD: sftp
         PORT: 22
         ARGS: --delete
