@@ -26,11 +26,11 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@4.1.0
       env:
-        SERVER: ${{ secrets.FTP_SERVER }}
-        USERNAME: ${{ secrets.FTP_USERNAME }}
-        PASSWORD: ${{ secrets.FTP_PASSWORD }}
-        LOCAL_DIR: build
-        SERVER_DIR: ./tacocalc
-        METHOD: sftp
-        PORT: 22
-        ARGS: --delete
+        server: ${{ secrets.FTP_SERVER }}
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        local_dir: build
+        server_dir: ./tacocalc
+        method: sftp
+        port: 22
+        args: --delete
