@@ -22,8 +22,4 @@ const ingredients = [
     ["boks ananas", "bokser ananas", 1/25],
 ];
 
-const guacamoleIngredients = [
-    ["boks ananas", "bokser ananas", 1/25],
-]
-
 export default ingredients;
