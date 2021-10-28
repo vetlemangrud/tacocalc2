@@ -16,7 +16,7 @@ const ingredients = {
         ["pakke tortillachips", "pakker tortillachips", 1/8],
         ["glass fetaost", "glass fetaost", 1/12],
         ["glass chunky salsa", "glass chunky salsa", 1/12],
-        ["pakke sprøstekt løk", "pakkee sprøstekt løk", 1/25],
+        ["pakke sprøstekt løk", "pakker sprøstekt løk", 1/25],
         ["pakke cashewnøtter", "pakker cashewnøtter", 1/12],
         ["pakke druer", "pakker druer", 1/25],
         ["glass jalapeños", "glass jalapeños", 1/25],
@@ -31,7 +31,6 @@ const ingredients = {
         ["ss limesaft", "ss limesaft", 3/4],
         ["ts salt", "ts salt", 1/4],
         ["ts pepper", "ts pepper", 1/4],
-        ["ss rømme", "ss rømme", 1/2],
     ]
     };
 
