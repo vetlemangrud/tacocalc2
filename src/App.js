@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import './App.css';
 import ingredients from './ingredientData.js';
 import Ingredient from './components/Ingredient.js'
+import SecretIngredients from './components/SecretIngredients.js'
 
 function App() {
   const [people, setPeople] = useState("");
@@ -28,6 +29,7 @@ function App() {
           <div className="guacamole">
             {ingredients.guacamole.map((ingredient) => <Ingredient ingredient={ingredient} personer={people}/>)}
           </div>
+          <SecretIngredients />
         </div>
         
       </main>
