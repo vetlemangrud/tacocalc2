@@ -2,7 +2,7 @@
 
 # 🌮 Tacocalculator 🌮
 
-Calculate how much you need to buy of each ingredient. Made with React. Live [here](https://vetlem.com/tacocalc).
+Calculate how much you need to buy of each ingredient. Made with React. Live [here](https://vetlem.com/tacocalc2).
 
 Created for [readme](https://abakus.no/pages/komiteer/10).
 
