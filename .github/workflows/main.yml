@@ -31,5 +31,5 @@ jobs:
         FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
         METHOD: sftp
         LOCAL_DIR: build/
-        REMOTE_DIR: ./tacocalc/
+        REMOTE_DIR: ./tacocalc2
         PORT: 22
